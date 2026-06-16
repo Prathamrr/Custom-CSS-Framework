@@ -1,5 +1,5 @@
 
-Sass was used to create a lightweight CSS framework.# Characteristics
+Sass was used to create a lightweight CSS framework.
 
 Sass and Sass partials
 Adaptable variables
@@ -14,11 +14,11 @@ Set up Sass:
 
 npm install -g sass ## Assemble CSS
 
-sass scss/main.scss css/framework.css ## Utilisation
+sass scss/main.scss css/framework.css 
 
 Add the framework to your HTML document:
 
-<link rel="stylesheet" href="css/framework.css"/> ## Personalisation
+<link rel="stylesheet" href="css/framework.css"/> 
 
 Modify the values within:
 
