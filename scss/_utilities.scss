@@ -1,7 +1,10 @@
 
-@import 'variables';
+@use 'variables' as *;
 
-/* Colors */
+/* =========================
+   Text Color Utilities
+========================= */
+
 .text-primary {
   color: $primary-color;
 }
@@ -14,16 +17,78 @@
   color: $danger-color;
 }
 
-/* Font Weight */
-.fw-bold {
-  font-weight: bold;
+.text-dark {
+  color: #222;
+}
+
+.text-light {
+  color: #f7f7f7;
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* =========================
+   Background Color Utilities
+========================= */
+
+.bg-primary {
+  background-color: $primary-color;
+}
+
+.bg-success {
+  background-color: $success-color;
+}
+
+.bg-danger {
+  background-color: $danger-color;
+}
+
+.bg-dark {
+  background-color: #222;
+}
+
+.bg-light {
+  background-color: #f7f7f7;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+/* =========================
+   Font Weight Utilities
+========================= */
+
+.fw-light {
+  font-weight: 300;
 }
 
 .fw-normal {
-  font-weight: normal;
+  font-weight: 400;
 }
 
-/* Font Size */
+.fw-medium {
+  font-weight: 500;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+.fw-black {
+  font-weight: 900;
+}
+
+/* =========================
+   Font Size Utilities
+========================= */
+
+.fs-xs {
+  font-size: 10px;
+}
+
 .fs-sm {
   font-size: 12px;
 }
@@ -36,29 +101,176 @@
   font-size: 24px;
 }
 
-/* Margin */
+.fs-xl {
+  font-size: 36px;
+}
+
+/* =========================
+   Margin Utilities
+========================= */
+
+.m-0 {
+  margin: 0;
+}
+
 .m-1 {
-  margin: 8px;
+  margin: $spacing-small;
 }
 
 .m-2 {
-  margin: 16px;
+  margin: $spacing-medium;
 }
 
-/* Padding */
+.m-3 {
+  margin: $spacing-large;
+}
+
+.mt-1 {
+  margin-top: $spacing-small;
+}
+
+.mt-2 {
+  margin-top: $spacing-medium;
+}
+
+.mt-3 {
+  margin-top: $spacing-large;
+}
+
+.mb-1 {
+  margin-bottom: $spacing-small;
+}
+
+.mb-2 {
+  margin-bottom: $spacing-medium;
+}
+
+.mb-3 {
+  margin-bottom: $spacing-large;
+}
+
+.mx-1 {
+  margin-left: $spacing-small;
+  margin-right: $spacing-small;
+}
+
+.mx-2 {
+  margin-left: $spacing-medium;
+  margin-right: $spacing-medium;
+}
+
+.my-1 {
+  margin-top: $spacing-small;
+  margin-bottom: $spacing-small;
+}
+
+.my-2 {
+  margin-top: $spacing-medium;
+  margin-bottom: $spacing-medium;
+}
+
+/* =========================
+   Padding Utilities
+========================= */
+
+.p-0 {
+  padding: 0;
+}
+
 .p-1 {
-  padding: 8px;
+  padding: $spacing-small;
 }
 
 .p-2 {
-  padding: 16px;
+  padding: $spacing-medium;
 }
 
-/* Border */
+.p-3 {
+  padding: $spacing-large;
+}
+
+.pt-1 {
+  padding-top: $spacing-small;
+}
+
+.pt-2 {
+  padding-top: $spacing-medium;
+}
+
+.pb-1 {
+  padding-bottom: $spacing-small;
+}
+
+.pb-2 {
+  padding-bottom: $spacing-medium;
+}
+
+.px-1 {
+  padding-left: $spacing-small;
+  padding-right: $spacing-small;
+}
+
+.px-2 {
+  padding-left: $spacing-medium;
+  padding-right: $spacing-medium;
+}
+
+.py-1 {
+  padding-top: $spacing-small;
+  padding-bottom: $spacing-small;
+}
+
+.py-2 {
+  padding-top: $spacing-medium;
+  padding-bottom: $spacing-medium;
+}
+
+/* =========================
+   Border Utilities
+========================= */
+
 .border {
   border: 1px solid #ccc;
 }
 
+.border-0 {
+  border: 0;
+}
+
+.border-top {
+  border-top: 1px solid #ccc;
+}
+
+.border-bottom {
+  border-bottom: 1px solid #ccc;
+}
+
 .rounded {
   border-radius: $border-radius;
+}
+
+.rounded-sm {
+  border-radius: 3px;
+}
+
+.rounded-lg {
+  border-radius: 12px;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+/* Border colors must come after .border */
+
+.border-primary {
+  border-color: $primary-color;
+}
+
+.border-success {
+  border-color: $success-color;
+}
+
+.border-danger {
+  border-color: $danger-color;
 }

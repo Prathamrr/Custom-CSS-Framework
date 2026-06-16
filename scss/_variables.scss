@@ -7,3 +7,41 @@ $primary-color: #2563eb;
      $spacing-medium: 16px;
      $spacing-large: 24px; 
      $border-radius: 6px;
+     // Utility colors
+$colors: (
+  primary: $primary-color,
+  success: $success-color,
+  danger: $danger-color,
+  dark: #222222,
+  light: #f7f7f7,
+  white: #ffffff
+);
+
+// Utility font sizes
+$font-sizes: (
+  xs: 12px,
+  sm: 15px,
+  md: 20px,
+  lg: 35px,
+  xl: 55px
+);
+
+// Utility font weights
+$font-weights: (
+  thin: 100,
+  light: 300,
+  regular: 400,
+  medium: 500,
+  bold: 700,
+  black: 900
+);
+
+// Utility spacing
+$spacing: (
+  0: 0,
+  1: $spacing-small,
+  2: $spacing-medium,
+  3: $spacing-large,
+  4: 32px,
+  5: 48px
+);
