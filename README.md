@@ -1,4 +1,3 @@
-# Personalised CSS Structure
 
 Sass was used to create a lightweight CSS framework.# Characteristics
 
