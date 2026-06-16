@@ -1,4 +1,89 @@
-@import 'variables'; 
-body { font-family: $font-family; margin: 20px; line-height: 1.6; } 
+@import 'variables';
 
- ul,ol { margin-left: 20px; }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: $dark-color;
+  background: #f4f7fb;
+  font-family: $font-family;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 $spacing-medium;
+  line-height: 1.2;
+  color: $dark-color;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.35rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.9rem;
+}
+
+p {
+  margin: 0 0 $spacing-medium;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+ul,
+ol {
+  margin: 0 0 $spacing-medium;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.35rem;
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-medium;
+  padding-left: 0;
+  list-style: none;
+}

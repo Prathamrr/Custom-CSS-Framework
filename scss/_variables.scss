@@ -1,47 +1,24 @@
 
-$primary-color: #2563eb;
- $success-color: #16a34a;
-  $danger-color: #dc2626;
-   $font-family: Arial, sans-serif;
-    $spacing-small: 8px;
-     $spacing-medium: 16px;
-     $spacing-large: 24px; 
-     $border-radius: 6px;
-     // Utility colors
-$colors: (
-  primary: $primary-color,
-  success: $success-color,
-  danger: $danger-color,
-  dark: #222222,
-  light: #f7f7f7,
-  white: #ffffff
-);
+$primary-color: #4f46e5 !default;
+$secondary-color: #64748b !default;
+$success-color: #16a34a !default;
+$danger-color: #dc2626 !default;
+$warning-color: #f59e0b !default;
+$info-color: #2563eb !default;
+$light-color: #f8fafc !default;
+$dark-color: #0f172a !default;
+$white: #ffffff !default;
+$muted-color: #64748b !default;
+$border-color: #dbe3ef !default;
 
-// Utility font sizes
-$font-sizes: (
-  xs: 12px,
-  sm: 15px,
-  md: 20px,
-  lg: 35px,
-  xl: 55px
-);
+$font-family: Arial, Helvetica, sans-serif !default;
+$font-size-base: 16px !default;
+$line-height-base: 1.6 !default;
 
-// Utility font weights
-$font-weights: (
-  thin: 100,
-  light: 300,
-  regular: 400,
-  medium: 500,
-  bold: 700,
-  black: 900
-);
+$spacing-small: 0.5rem !default;
+$spacing-medium: 1rem !default;
+$spacing-large: 1.5rem !default;
+$spacing-xlarge: 2rem !default;
 
-// Utility spacing
-$spacing: (
-  0: 0,
-  1: $spacing-small,
-  2: $spacing-medium,
-  3: $spacing-large,
-  4: 32px,
-  5: 48px
-);
+$border-radius: 0.5rem !default;
+$box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08) !default;

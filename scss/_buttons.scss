@@ -1,28 +1,63 @@
-// TEST CHANGE
 @import 'variables';
 
 .btn {
   display: inline-block;
-  padding: 10px 18px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  font-weight: 500;
-  cursor: pointer;
+  padding: 0.7rem 1.1rem;
+  border: 1px solid transparent;
+  border-radius: $border-radius;
+  font: inherit;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
   text-decoration: none;
-  transition: 0.3s ease;
+  cursor: pointer;
+  transition: transform 0.15s ease, opacity 0.15s ease,
+    box-shadow 0.15s ease;
 
   &:hover {
-    opacity: 0.85;
+    opacity: 0.9;
+    transform: translateY(-1px);
+    text-decoration: none;
+  }
+
+  &:focus {
+    outline: 3px solid rgba($primary-color, 0.25);
+    outline-offset: 2px;
   }
 }
 
 .btn-primary {
-  background-color: $primary-color;
-  color: #fff;
+  color: $white;
+  background: $primary-color;
+}
+
+.btn-secondary {
+  color: $white;
+  background: $secondary-color;
 }
 
 .btn-success {
-  background-color: $success-color;
-  color: #fff;
+  color: $white;
+  background: $success-color;
+}
+
+.btn-danger {
+  color: $white;
+  background: $danger-color;
+}
+
+.btn-outline-primary {
+  color: $primary-color;
+  background: transparent;
+  border-color: $primary-color;
+}
+
+.btn-sm {
+  padding: 0.5rem 0.8rem;
+  font-size: 0.875rem;
+}
+
+.btn-lg {
+  padding: 0.9rem 1.4rem;
+  font-size: 1.1rem;
 }

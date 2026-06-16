@@ -1,15 +1,30 @@
-
 @import 'variables';
 
-   table {
+table {
   width: 100%;
+  overflow: hidden;
+  background: $white;
+  border: 1px solid $border-color;
   border-collapse: collapse;
+  border-radius: $border-radius;
 }
-
-
 
 th,
 td {
-  border: 1px solid #ddd;
-  padding: 10px;
+  padding: 0.8rem;
+  border-bottom: 1px solid $border-color;
+  text-align: left;
+}
+
+th {
+  color: $white;
+  background: $primary-color;
+}
+
+tbody tr:nth-child(even) {
+  background: $light-color;
+}
+
+tbody tr:hover {
+  background: rgba($primary-color, 0.06);
 }
