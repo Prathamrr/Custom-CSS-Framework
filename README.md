@@ -1,18 +1,33 @@
-Include:
+# Personalised CSS Structure
 
-Project Overview
+Sass was used to create a lightweight CSS framework.# Characteristics
 
-Custom CSS Framework built using Sass.
+Sass and Sass partials
+Adaptable variables
+Classes of utilities
+Styled headers
+Styled buttons
+Styled shapes
+Tables with styles
+Clean and responsive design# Setup
 
-Installation
-npm install -g sass
-Compile
-sass scss/main.scss css/framework.css
-Usage
-<link rel="stylesheet" href="css/framework.css">
-Customization
+Set up Sass:
 
-Edit:
+npm install -g sass ## Assemble CSS
 
-scss/_variables.scss
-Then compile again.
+sass scss/main.scss css/framework.css ## Utilisation
+
+Add the framework to your HTML document:
+
+<link rel="stylesheet" href="css/framework.css"/> ## Personalisation
+
+Modify the values within:
+
+#scss/_variables.scss,
+#For instance:
+$#ff6600 is the primary colour.
+Following the execution of changes:
+sass scss/main.scss css/framework.css 
+Open
+index.html
+within your web browser.
