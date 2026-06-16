@@ -1,0 +1,28 @@
+[33mcommit d563bc59724e4d6784da6ba4f3ae15d697378536[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Habiba Yehia <yehi0007@algonquinlive.com>
+Date:   Tue Jun 16 04:50:48 2026 -0400
+
+    Complete Sass framework
+
+ index.zip | Bin [31m0[m -> [32m5347[m bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit 9e4fe0387c51ecab7234a8819aff941d5e1e4f97[m
+Author: na000050 <kumarpratham893@gmail.com>
+Date:   Tue Jun 16 14:06:59 2026 +0530
+
+    new update error resolved
+
+ css/framework.css     | 342 [32m+++++++++++++++++++++++++++++++++++++++++++++++[m[31m---[m
+ css/framework.css.map |   2 [32m+[m[31m-[m
+ scss/_utilities.scss  |   2 [32m+[m[31m-[m
+ 3 files changed, 328 insertions(+), 18 deletions(-)
+
+[33mcommit 90909166ffb68534ca84f7a63e4bff45d25f72f3[m
+Author: na000050 <kumarpratham893@gmail.com>
+Date:   Tue Jun 16 13:59:03 2026 +0530
+
+    update
+
+ css/framework.css | 113 [32m++++++++[m[31m----------------------------------------------[m
+ 1 file changed, 16 insertions(+), 97 deletions(-)
